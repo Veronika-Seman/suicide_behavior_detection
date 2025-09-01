@@ -1,0 +1,2 @@
+learning_rate,batch_size,epochs,model
+3.819059334176231e-05,8,3,xlnet-base-cased

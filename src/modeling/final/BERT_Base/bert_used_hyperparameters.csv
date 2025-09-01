@@ -1,0 +1,2 @@
+learning_rate,batch_size,epochs,model
+4.6812760476533354e-05,8,3,bert-base-uncased

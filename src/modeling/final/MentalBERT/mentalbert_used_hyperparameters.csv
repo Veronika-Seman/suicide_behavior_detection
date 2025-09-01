@@ -1,0 +1,2 @@
+learning_rate,batch_size,epochs,model
+4.969782981573154e-05,8,3,mental/mental-bert-base-uncased

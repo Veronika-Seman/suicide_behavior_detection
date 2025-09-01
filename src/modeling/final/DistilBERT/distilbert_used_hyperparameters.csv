@@ -1,0 +1,2 @@
+learning_rate,batch_size,epochs,model
+4.1820044304817006e-05,8,3,distilbert-base-uncased

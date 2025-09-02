@@ -23,6 +23,7 @@ Programming: Python
 Libraries: PyTorch, HuggingFace Transformers, Scikit-learn, Pandas, NumPy
 Models Used:
 BERT, DistilBERT, RoBERTa, XLNet, MentalBERT (transformer-based models), SVM (optimized baseline)
+Note: For RoBERTa and MentalBERT, intermediate checkpoint files from cross-validation folds were not included in the repository due to their large size. Instead, only the best model from the folds was preserved, along with its tokenizer and configuration files.
 Techniques:
 Data preprocessing & cleaning (tokenization, normalization, deduplication)
 Train/Validation/Test split with fixed folds

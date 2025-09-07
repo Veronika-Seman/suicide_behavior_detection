@@ -62,41 +62,41 @@ Suicide_Behavior_Detection_Project/
 │── requirements.txt # Python dependencies
 
 Steps
-# 1) Clone and enter the repo
+1) Clone and enter the repo
 git clone https://github.com/Veronika-Seman/suicide_behavior_detection.git
 cd suicide_behavior_detection
 
-# (If using Git LFS for model files)
+(If using Git LFS for model files)
 git lfs install
 git lfs pull
 
-# 2) (Optional but recommended) Create & activate a virtual environment
-# Windows (PowerShell)
+ 2) (Optional but recommended) Create & activate a virtual environment
+-Windows (PowerShell)
 python -m venv .venv
 . .venv\Scripts\Activate.ps1
 
-# macOS / Linux
+-macOS / Linux
 python3 -m venv .venv
 source .venv/bin/activate
 
-# 3) Install dependencies
+3) Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
 
-# 4) Verify the model directory exists
-# macOS / Linux:
+4) Verify the model directory exists
+-macOS / Linux:
 test -d src/modeling/final/DistilBERT/distilbert_final_model \
   && echo "OK: model dir found" \
   || echo "ERROR: model dir missing"
 
-# Windows (PowerShell):
+-Windows (PowerShell):
 if (Test-Path "src/modeling/final/DistilBERT/distilbert_final_model") {
   "OK: model dir found"
 } else {
   "ERROR: model dir missing"
 }
 
-# 5) Run the dashboard
+5) Run the dashboard
 streamlit run src/dashboards/app.py
 
 If you see ERROR in step 4, ensure the model files (e.g., model.safetensors) are present under:

@@ -1,8 +1,31 @@
+# Core data & ML
 pandas
 numpy
 scikit-learn
 tqdm
-python-dotenv
 joblib
+
+# Environment & config
+python-dotenv
+
+# Reddit API
 praw
+
+# Hugging Face
+transformers
 huggingface_hub
+safetensors
+
+# Deep Learning
+torch
+datasets
+
+# Optimization
+optuna
+
+# Dashboard
+streamlit
+
+# Visualization & reports
+matplotlib
+seaborn
